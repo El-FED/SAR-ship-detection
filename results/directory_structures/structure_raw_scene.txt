@@ -1,0 +1,31 @@
+This is the structure of a single SAR GRD scene after being downloaded and decompressed:
+
+Scene_1
+└── validation
+    └── S1B_IW_GRDH_1SDV_20200803T075721_20200803T075746_022756_02B2FF_033A.SAFE
+        ├── annotation
+        │   └── calibration
+        │       ├── s1b-iw-grd-vh-20200803T075721-20200803T075746-022756-02b2ff-002.xml
+        │       └── s1b-iw-grd-vv-20200803T075721-20200803T075746-022756-02b2ff-001.xml
+        ├── manifest.safe
+        ├── measurement
+        │   ├── S1B_IW_GRDH_1SDV_20200803T075721_20200803T075746_022756_02B2FF_033A_global_shoreline_vector.npy
+        │   ├── S1B_IW_GRDH_1SDV_20200803T075721_20200803T075746_022756_02B2FF_033A_xView3_shoreline.npy
+        │   ├── s1b-iw-grd-vh-20200803T075721-20200803T075746-022756-02b2ff-002_SARFish.tiff
+        │   └── s1b-iw-grd-vv-20200803T075721-20200803T075746-022756-02b2ff-001_SARFish.tiff
+        ├── preview
+        │   ├── icons
+        │   │   └── logo.png
+        │   ├── map-overlay.kml
+        │   ├── product-preview.html
+        │   └── quick-look.png
+        ├── support
+        │   ├── s1-level-1-calibration.xsd
+        │   ├── s1-level-1-measurement.xsd
+        │   ├── s1-level-1-noise.xsd
+        │   ├── s1-level-1-product.xsd
+        │   ├── s1-level-1-quicklook.xsd
+        │   ├── s1-map-overlay.xsd
+        │   ├── s1-object-types.xsd
+        │   └── s1-product-preview.xsd
+        └── S1B_IW_GRDH_1SDV_20200803T075721_20200803T075746_022756_02B2FF_033A.SAFE-report-20200803T104006.pdf
