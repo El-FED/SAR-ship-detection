@@ -1,0 +1,5 @@
+train: "/Volumes/Extreme Pro/SARFish_Data/yolo_tiled_speckle_new/train.txt"
+val:   "/Volumes/Extreme Pro/SARFish_Data/yolo_tiled_speckle_new/val.txt"
+
+nc: 1
+names: ['vessel']

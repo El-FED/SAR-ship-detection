@@ -1,0 +1,38 @@
+# my_hyp_speckle.yaml
+
+lr0: 0.005            # initial learning rate
+lrf: 0.01             # final learning rate fraction
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 3.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+
+# Loss weights
+box: 0.05             # box loss gain
+cls: 0.5              # classification loss gain
+cls_pw: 1.0           
+obj: 1.0              # objectness loss gain
+obj_pw: 1.0
+
+# Detection thresholds
+iou_t: 0.25           # IoU threshold for assigning anchors to GT
+anchor_t: 2.0         # anchor-matching threshold
+
+# Focal loss gamma (set to 0 to disable)
+fl_gamma: 0.0
+
+# Augmentations
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 0.0
+translate: 0.1
+scale: 0.3           # scale augmentation factor
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 0.5          # mosaic probability
+mixup: 0.1
+copy_paste: 0.0
